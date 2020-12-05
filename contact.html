@@ -1,187 +1,194 @@
 <!doctype html>
+
 <head>
-   <base href="/images/">
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <meta name="language" content="en" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-   <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
-   <script type="text/javascript" src="/assets/36ecd175/jquery.js"></script>
-   <script type="text/javascript" src="/js/jquery.min.js"></script>
-   <!--   <script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
-      <script type="text/javascript" src="/js/scripts.js"></script> -->
-   <title>Mukhtar Flour Mills</title>
-   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   <!-- JS, Popper.js, and jQuery -->
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
-   <style>
-      select {
-      color: #b0976d!important;
-      border-top: none!important;
-      border-right: none!important;
-      border-left: none!important;
-      border-radius: 0px!important;
-      }
-      .mobile-icon {
-      height: 25px;
-      width: 25px;
-      ;
-      }
-      .img-box {}
-      .img-box img {
-      margin-right: 8px;
-      height: 35px;
-      width: 35px;
-      background-color: white;
-      padding: 5px;
-      ;
-      }
-      .half-grid article p {
-      /* margin-top: 50px; */
-      color: red;
-      font-weight: bold;
-      font-size: 18px;
-      }
-      .email-anchor {
-      /* margin-top: 50px; */
-      color: red!important;
-      font-weight: bold;
-      text-decoration: none!important;
-      }
-   </style>
+    <base href="/mukhtarflourmills/images/">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="/mukhtarflourmills/assets/css/main.css" />
+    <script type="text/javascript" src="/mukhtarflourmills/assets/36ecd175/jquery.js"></script>
+    <script type="text/javascript" src="/mukhtarflourmills/js/jquery.min.js"></script>
+    <!--   <script type="text/javascript" src="/mukhtarflourmills/js/jquery.jscrollpane.min.js"></script>
+      <script type="text/javascript" src="/mukhtarflourmills/js/scripts.js"></script> -->
+    <title>Mukhtar Flour Mills</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/mukhtarflourmills/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/mukhtarflourmills/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <style>
+        select {
+            color: #b0976d!important;
+            border-top: none!important;
+            border-right: none!important;
+            border-left: none!important;
+            border-radius: 0px!important;
+        }
+        
+        .mobile-icon {
+            height: 25px;
+            width: 25px;
+            ;
+        }
+        
+        .img-box {}
+        
+        .img-box img {
+            margin-right: 8px;
+            height: 35px;
+            width: 35px;
+            background-color: white;
+            padding: 5px;
+            ;
+        }
+        
+        .half-grid article p {
+            /* margin-top: 50px; */
+            color: red;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .email-anchor {
+            /* margin-top: 50px; */
+            color: red!important;
+            font-weight: bold;
+            text-decoration: none!important;
+        }
+    </style>
 </head>
+
 <body class="">
-   <div class="home-slider">
-      <div class="item">
-         <img src="banners/banner-1.jpg" alt="" />
-         <div class="slider-content">
-            <img src="crown-banner.png" alt="" />
-            <h1 style="margin-top:50px;font-family: champagne-bold;">FEEDING THE NATION <strong>HEALTHY</strong>, <br/><strong>NUTRITIOUS</strong> AND <strong>GREAT</strong> TASTING FLOUR <br/>AND MIXES <strong>SINCE 1952.</strong></h1>
-         </div>
-      </div>
-      <div class="item">
-         <img src="banners/banner-2.jpg" alt="" />
-         <div class="slider-content">
-            <img src="crown-banner.png" alt="" />
-            <section>
-               <!--                <span>Our innovation and our quality<br/> are
+    <div class="home-slider">
+        <div class="item">
+            <img src="banners/banner-1.jpg" alt="" />
+            <div class="slider-content">
+                <img src="crown-banner.png" alt="" />
+                <h1 style="margin-top:50px;font-family: champagne-bold;">FEEDING THE NATION <strong>HEALTHY</strong>, <br/><strong>NUTRITIOUS</strong> AND <strong>GREAT</strong> TASTING FLOUR <br/>AND MIXES <strong>SINCE 1952.</strong></h1>
+            </div>
+        </div>
+        <div class="item">
+            <img src="banners/banner-2.jpg" alt="" />
+            <div class="slider-content">
+                <img src="crown-banner.png" alt="" />
+                <section>
+                    <!--                <span>Our innovation and our quality<br/> are
                   your products <br/>and your success</span>-->
-            </section>
-         </div>
-         <div class="second-title">
-            <h1 style="font-family: champagne-bold;">Our <strong>innovation</strong> and our <br/><strong>quality</strong> are your products<br> and your success</h1>
-         </div>
-      </div>
-   </div>
-   <div id="page">
-      <!--Header With Menu-->
-      <div id="header">
-         <div class="grid clearfix" style="width:1250px">
-            <div class="logo">
-               <a href="/">
-               <img src="/assets/images/logo2.png" style="height:65px;width:80px;" alt="Mukhtar Floor Mills" />
-               </a>
+                </section>
             </div>
-            <div class="main-menu" style="width:1050px">
-               <ul id="yw0">
-                  <li><a href="/about.html">About Us</a></li>
-                  <li><a href="/expertise.html">Our Expertise</a></li>
-                  <li><a href="/products.html">Our Products</a></li>
-                  <li><a href="/service.html ">Our Services</a></li>
-                  <li><a href="/careers.html ">Careers</a></li>
-                  <li><a href="/order.html ">Order</a></li>
-                  <!--   <li><a href="/client.html ">Clients</a></li> -->
-                  <li class="active "><a href="/contact.html ">Contact Us</a></li>
-                  <li id="fbIcon ">
-                     <a target="_blank " href="/ "><img src="/assets/images/icons/fb-icon-mobile.png " /></a>
-                  </li>
-                  <li id="fbIcon ">
-                     <a target="_blank " href="/ "><img src="/assets/images/icons/crownlogo.png " /></a>
-                  </li>
-               </ul>
+            <div class="second-title">
+                <h1 style="font-family: champagne-bold;">Our <strong>innovation</strong> and our <br/><strong>quality</strong> are your products<br> and your success</h1>
             </div>
-            <div class="social " style="width:55px ">
-               <a href="/ " target="_blank ">
-               <img src="/assets/images/icons/fb-icon.png " alt="Facebook Mukhtar Floor Mills " />
-               </a>
-               <a href="/ " target="_blank ">
-               <img src="/assets/images/logo2.png " class="mobile-icon " alt="Mukhtar Bake " />
-               </a>
+        </div>
+    </div>
+    <div id="page">
+        <!--Header With Menu-->
+        <div id="header">
+            <div class="grid clearfix" style="width:1250px">
+                <div class="logo">
+                    <a href="/mukhtarflourmills/">
+                        <img src="/mukhtarflourmills/assets/images/logo2.png" style="height:65px;width:80px;" alt="Mukhtar Floor Mills" />
+                    </a>
+                </div>
+                <div class="main-menu" style="width:1050px">
+                    <ul id="yw0">
+                        <li><a href="/mukhtarflourmills/about.html">About Us</a></li>
+                        <li><a href="/mukhtarflourmills/expertise.html">Our Expertise</a></li>
+                        <li><a href="/mukhtarflourmills/products.html">Our Products</a></li>
+                        <li><a href="/mukhtarflourmills/service.html ">Our Services</a></li>
+                        <li><a href="/mukhtarflourmills/careers.html ">Careers</a></li>
+                        <li><a href="/mukhtarflourmills/order.html ">Order</a></li>
+                        <!--   <li><a href="/mukhtarflourmills/client.html ">Clients</a></li> -->
+                        <li class="active "><a href="/mukhtarflourmills/contact.html ">Contact Us</a></li>
+                        <li id="fbIcon ">
+                            <!-- <a target="_blank " href="/mukhtarflourmills/ "><img src="/mukhtarflourmills/assets/images/icons/fb-icon-mobile.png " /></a> -->
+                        </li>
+                        <li id="fbIcon ">
+                            <!--  <a target="_blank " href="/mukhtarflourmills/ "><img src="/mukhtarflourmills/assets/images/icons/crownlogo.png " /></a> -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="social " style="width:55px ">
+                    <a href="/mukhtarflourmills/ " target="_blank ">
+                        <img src="/mukhtarflourmills/assets/images/icons/fb-icon.png " alt="Facebook Mukhtar Floor Mills " />
+                    </a>
+                    <a href="/mukhtarflourmills/ " target="_blank ">
+                        <img src="/mukhtarflourmills/assets/images/logo2.png " class="mobile-icon " alt="Mukhtar Bake " />
+                    </a>
+                </div>
+                <a class="menu-icon " href="/mukhtarflourmills/ ">
+                    <!--            <img src="/mukhtarflourmills/assets/images/icons/menu-icon.png " alt="Crown Floor Mills "/>-->
+                </a>
             </div>
-            <a class="menu-icon " href="/ ">
-               <!--            <img src="/assets/images/icons/menu-icon.png " alt="Crown Floor Mills "/>-->
-            </a>
-         </div>
-      </div>
-      <!--Body Content-->
-      <div id="content ">
-         <div class="contact-page ">
-            <div class="banner ">
-               <div class="grid ">
-                  <div class="full ">
-                     <div class="banner-holder ">
-                        <h1>We’re always <br><span>here for you</span></h1>
-                        <article>
-                           Whatever your needs or requirements, <br> we value the opportunity to discuss them further.<br> Contact us to arrange a meeting and let us show you how we can give rise to your success.
-                        </article>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="full-screen clearfix ">
-               <div class="mid-screen contact-info ">
-                  <div class="container clearfix ">
-                     <div class="half-grid right ">
-                        <article>
-                           <p><span class="img-box">
+        </div>
+        <!--Body Content-->
+        <div id="content ">
+            <div class="contact-page ">
+                <div class="banner ">
+                    <div class="grid ">
+                        <div class="full ">
+                            <div class="banner-holder ">
+                                <h1>We’re always <br><span>here for you</span></h1>
+                                <article>
+                                    Whatever your needs or requirements, <br> we value the opportunity to discuss them further.<br> Contact us to arrange a meeting and let us show you how we can give rise to your success.
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="full-screen clearfix ">
+                    <div class="mid-screen contact-info ">
+                        <div class="container clearfix ">
+                            <div class="half-grid right ">
+                                <article>
+                                    <p><span class="img-box">
                               <img src="https://www.flaticon.com/svg/static/icons/svg/67/67743.svg" 
                                  /></span> Mukhtar Flour Mills
-                           </p>
-                           <p><span class="img-box">
+                                    </p>
+                                    <p><span class="img-box">
                               <img src="https://www.flaticon.com/premium-icon/icons/svg/2901/2901609.svg" 
                                  /></span>St. 9, I-10/3, Islamabad (44000), Pakistan
-                           </p>
-                           <p><span class="img-box">
+                                    </p>
+                                    <p><span class="img-box">
                               <img src="https://www.flaticon.com/svg/static/icons/svg/15/15884.svg" 
-                                 /></span>T: +92 51 4441552, +92 51 4441548 
-                           </p>
-                           <!--   <p>F: +961 1 562 173</p> -->
-                           <p><span class="img-box">
+                                 /></span>T: +92 51 4441552, +92 51 4441548
+                                    </p>
+                                    <!--   <p>F: +961 1 562 173</p> -->
+                                    <p><span class="img-box">
                               <img src="https://www.flaticon.com/premium-icon/icons/svg/3059/3059486.svg" 
                                  /></span>E:
-                              <a class="email-anchor" href="mailto:info@mukhtarflourmills.com ">info@mukhtarflourmills.com</a>
-                           </p>
-                        </article>
-                     </div>
-                  </div>
-               </div>
-               <div class="mid-screen contact-form ">
-                  <div class="container clearfix ">
-                     <div class="half-grid left ">
-                        <div class="data-holder ">
-                           <h2>Contact <span>Us</span></h2>
-                           <form id="contact-form " action=" " method="POST ">
-                              <div class="row mt-5 ">
-                                 <div class="col-md-6 ">
-                                    <div class="input-holder ">
-                                       <input class="effect " name="first_name " id="Contact_fname " type="text " maxlength="150 " required="required " /> <label for="Contact_fname " class="required ">First Name <span class="required
+                                        <a class="email-anchor" href="mailto:info@mukhtarflourmills.com ">info@mukhtarflourmills.com</a>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid-screen contact-form ">
+                        <div class="container clearfix ">
+                            <div class="half-grid left ">
+                                <div class="data-holder ">
+                                    <h2>Contact <span>Us</span></h2>
+                                    <form id="contact-form " action=" " method="POST ">
+                                        <div class="row mt-5 ">
+                                            <div class="col-md-6 ">
+                                                <div class="input-holder ">
+                                                    <input class="effect " name="first_name " id="Contact_fname " type="text " maxlength="150 " required="required " /> <label for="Contact_fname " class="required ">First Name <span class="required
                                           ">*</span></label> <span class="focus-border "></span>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6 ">
-                                    <div class="input-holder ">
-                                       <input class="effect " name="last_name " id="Contact_lname " type="text " maxlength="150 " required="required " /> <label for="Contact_lname " class="required ">Last Name <span class="required
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="input-holder ">
+                                                    <input class="effect " name="last_name " id="Contact_lname " type="text " maxlength="150 " required="required " /> <label for="Contact_lname " class="required ">Last Name <span class="required
                                           ">*</span></label> <span class="focus-border "></span>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6 ">
-                                    <div class="input-holder ">
-                                       <select name="country " class="form-control " id="Contact_country " required="required ">
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="input-holder ">
+                                                    <select name="country " class="form-control " id="Contact_country " required="required ">
                                           <option value=" "> Country</option>
                                           <option value=" "selected="selected ">Select Country</option>
                                           <option value="Afganistan ">Afghanistan</option>
@@ -432,108 +439,113 @@
                                           <option value="Zimbabwe ">Zimbabwe</option>
                                           <option value="Others ">Others</option>
                                        </select>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6 ">
-                                    <div class="input-holder ">
-                                       <input class="effect " name="company " id="Contact_company " type="text " required="required " /> <label for="Contact_company " class="required ">Company <span class="required
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="input-holder ">
+                                                    <input class="effect " name="company " id="Contact_company " type="text " required="required " /> <label for="Contact_company " class="required ">Company <span class="required
                                           ">*</span></label> <span class="focus-border "></span>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6 ">
-                                    <div class="input-holder ">
-                                       <input class="effect " name="email " id="Contact_email " type="text " maxlength="150 " required="required " /> <label for="Contact_email " class="required ">Email Address <span class="required
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="input-holder ">
+                                                    <input class="effect " name="email " id="Contact_email " type="text " maxlength="150 " required="required " /> <label for="Contact_email " class="required ">Email Address <span class="required
                                           ">*</span></label> <span class="focus-border "></span>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6 ">
-                                    <div class="input-holder ">
-                                       <input class="effect " name="phone_number " id="Contact_phone " type="text " maxlength="30 " required="required " /> <label for="Contact_phone " class="required ">Phone Number <span class="required
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="input-holder ">
+                                                    <input class="effect " name="phone_number " id="Contact_phone " type="text " maxlength="30 " required="required " /> <label for="Contact_phone " class="required ">Phone Number <span class="required
                                           ">*</span></label> <span class="focus-border "></span>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-12 ">
-                                    <div class="textarea-holder ">
-                                       <textarea class="effect " name="comments " id="Contact_message " required="required " style="height: 200px; "></textarea>
-                                       <label for="Contact_message " class="required ">Comments <span class="required ">*</span></label> <span class="focus-border "></span>
-                                       <div class="error "></div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <input class="button " type="submit " name="yt0 " id="send " value="Send " />
-                           </form>
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 ">
+                                                <div class="textarea-holder ">
+                                                    <textarea class="effect " name="comments " id="Contact_message " required="required " style="height: 200px; "></textarea>
+                                                    <label for="Contact_message " class="required ">Comments <span class="required ">*</span></label> <span class="focus-border "></span>
+                                                    <div class="error "></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input class="button " type="submit " name="yt0 " id="send " value="Send " />
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- map start  -->
-      <div class="container-fluid p-3 ">
-         <div class="row ">
-            <div class="col-md-12 ">
-               <div id="mapid" style="width: 100vw; height: 75vh; "></div>
+        </div>
+        <!-- map start  -->
+        <div class="container-fluid p-3 ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <div id="mapid" style="width: 100vw; height: 75vh; "></div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- end map  -->
-      <!--Footer-->
-      <div id="footer">
-         <div class="grid">
-            <div class="full clearfix">
-               <ul class="footer-menu">
-                  <li class="web ">
-                     <a href="javascript: void(0)">WEBMAIL</a>
-                     <div class="webmail">
-                        <div class="holder">
-                        </div>
-                     </div>
-                  </li>
-               </ul>
-               <div class="copyrights">
-                  Designed By <a href="http://cleartag.com" target="_blank ">TUSIX</a>
-               </div>
+        </div>
+        <!-- end map  -->
+        <!--Footer-->
+        <div id="footer">
+            <div class="grid">
+                <div class="full clearfix">
+                    <ul class="footer-menu">
+                        <li class="web ">
+                            <a href="javascript: void(0)">WEBMAIL</a>
+                            <div class="webmail">
+                                <div class="holder">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="copyrights">
+                        Designed By <a href="http://cleartag.com" target="_blank ">TUSIX</a>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- footer -->
-   </div>
-   <script type="text/javascript " src="/js/jquery.selectbox.min.js "></script>
-   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js " integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=" "></script>
-   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js " integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=" "></script>
-   <script>
-      var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-          maxZoom: 18,
-          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/ ">OpenStreetMap</a> contributors, ' +
-              '<a href="https://creativecommons.org/licenses/by-sa/2.0/ ">CC-BY-SA</a>, ' +
-              'Imagery © <a href="https://www.mapbox.com/ ">Mapbox</a>',
-          id: 'mapbox/streets-v11',
-          tileSize: 512,
-          zoomOffset: -1
-      }).addTo(mymap);
-      L.marker([33.6573, 73.0572]).addTo(mymap)
-          .bindPopup("<b>Mukhtar Flour Mill</b><br />.").openPopup();
-      L.circle([51.508, -0.11], 500, {
-          color: 'red',
-          fillColor: '#f03',
-          fillOpacity: 0.5
-      }).addTo(mymap).bindPopup("I am a circle.");
-      L.polygon([
-          [51.509, -0.08],
-          [51.503, -0.06],
-          [51.51, -0.047]
-      ]).addTo(mymap).bindPopup("I am a polygon.");
-      var popup = L.popup(); 
-       function onMapClick(e) {  popup .setLatLng(e.latlng) .setContent("You clicked the map at " + e.latlng.toString()) .openOn(mymap); }
-      mymap.flyTo(new L.LatLng(33.6573, 73.0572), 15); mymap.on('click', onMapClick);
-   </script>
-   <script type="text/javascript " src="/assets/js/social.js "></script>
-   <script type="text/javascript " src="/assets/js/whatsapp.js "></script>
+        </div>
+        <!-- footer -->
+    </div>
+    <script type="text/javascript " src="/mukhtarflourmills/js/jquery.selectbox.min.js "></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js " integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=" "></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js " integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=" "></script>
+    <script>
+        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/ ">OpenStreetMap</a> contributors, ' +
+                '<a href="https://creativecommons.org/licenses/by-sa/2.0/ ">CC-BY-SA</a>, ' +
+                'Imagery © <a href="https://www.mapbox.com/ ">Mapbox</a>',
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1
+        }).addTo(mymap);
+        L.marker([33.6573, 73.0572]).addTo(mymap)
+            .bindPopup("<b>Mukhtar Flour Mill</b><br />.").openPopup();
+        L.circle([51.508, -0.11], 500, {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5
+        }).addTo(mymap).bindPopup("I am a circle.");
+        L.polygon([
+            [51.509, -0.08],
+            [51.503, -0.06],
+            [51.51, -0.047]
+        ]).addTo(mymap).bindPopup("I am a polygon.");
+        var popup = L.popup();
+
+        function onMapClick(e) {
+            popup.setLatLng(e.latlng).setContent("You clicked the map at " + e.latlng.toString()).openOn(mymap);
+        }
+        mymap.flyTo(new L.LatLng(33.6573, 73.0572), 15);
+        mymap.on('click', onMapClick);
+    </script>
+    <script type="text/javascript " src="/mukhtarflourmills/assets/js/social.js "></script>
+    <script type="text/javascript " src="/mukhtarflourmills/assets/js/whatsapp.js "></script>
 </body>
+
 </html>

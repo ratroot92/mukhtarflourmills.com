@@ -1,6 +1,6 @@
 (function() {
     var options = {
-        whatsapp: "00923441500542", // WhatsApp number
+        whatsapp: "00923335453780", // WhatsApp number
         call_to_action: "Message us", // Call to action
         position: "right", // Position may be 'right' or 'left'
     };

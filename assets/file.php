@@ -71,7 +71,7 @@ $is_https = isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['
 $root_path = rtrim($root_path, '\\/');
 $root_path = str_replace('\\', '/', $root_path);
 if (!@is_dir($root_path)) {
-    echo "<h1>Root path \"{$root_path}\" not found!</h1>";
+    echo"<h1>Root path \"{$root_path}\" not found!</h1>";
     exit;
 }
 
@@ -761,7 +761,7 @@ if (isset($_GET['view'])) {
 
     ?>
     <div class="path">
-        <p class="break-word"><b><?php echo $view_title ?> "<?php echo fm_convert_win($file) ?>"</b></p>
+        <p class="break-word"><b><?php echo $view_title ?>"<?php echo fm_convert_win($file) ?>"</b></p>
         <p class="break-word">
             Full path: <?php echo fm_convert_win($file_path) ?><br>
             File size: <?php echo fm_get_filesize($filesize) ?><?php if ($filesize >= 1000): ?> (<?php echo sprintf('%s bytes', $filesize) ?>)<?php endif; ?><br>
@@ -1665,7 +1665,7 @@ function fm_show_nav_path($path)
 </div>
         <?php
         $path = fm_clean_path($path);
-        $root_url = "<a href='?p='><i class='icon-home' title='" . FM_ROOT_PATH . "'></i></a>";
+        $root_url ="<a href='?p='><i class='icon-home' title='" . FM_ROOT_PATH ."'></i></a>";
         $sep = '<i class="icon-separator"></i>';
         if ($path != '') {
             $exploded = explode('/', $path);
@@ -1675,7 +1675,7 @@ function fm_show_nav_path($path)
             for ($i = 0; $i < $count; $i++) {
                 $parent = trim($parent . '/' . $exploded[$i], '/');
                 $parent_enc = urlencode($parent);
-                $array[] = "<a href='?p={$parent_enc}'>" . fm_convert_win($exploded[$i]) . "</a>";
+                $array[] ="<a href='?p={$parent_enc}'>" . fm_convert_win($exploded[$i]) ."</a>";
             }
             $root_url .= $sep . implode($sep, $array);
         }
@@ -1769,7 +1769,7 @@ code.maxheight,pre.maxheight{max-height:512px}input[type="checkbox"]{margin:0;pa
 <link rel="icon" href="<?php echo FM_SELF_URL ?>?img=favicon" type="image/png">
 <link rel="shortcut icon" href="<?php echo FM_SELF_URL ?>?img=favicon" type="image/png">
 <?php if (isset($_GET['view']) && FM_USE_HIGHLIGHTJS): ?>
-<link rel="stylesheet" href="/mukhtarflourmills//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/<?php echo FM_HIGHLIGHTJS_STYLE ?>.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/<?php echo FM_HIGHLIGHTJS_STYLE ?>.min.css">
 <?php endif; ?>
 </head>
 <body>

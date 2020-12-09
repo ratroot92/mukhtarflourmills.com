@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!DOCTYPE svg PUBLIC"-//W3C//DTD SVG 1.1//EN""http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
 Created by FontForge 20161116 at Tue Apr  7 01:35:25 2009
  By Jimmy Warting
-(c) Lauren Thompson "Nymphont" 2009 (nymphont@yahoo.com). All rights reserved. http://www.nymphont.com/
+(c) Lauren Thompson"Nymphont" 2009 (nymphont@yahoo.com). All rights reserved. http://www.nymphont.com/
 </metadata>
 <defs>
 <font id="Champagne&#38;Limousines" horiz-adv-x="1070" >
@@ -39,7 +39,7 @@ q0 -6 -11 -13t-39 -21q48 -72 99 -72q23 0 47 15q75 46 120 60q-45 11 -50.5 23.5t-5
  />
     <glyph glyph-name="nonmarkingreturn" horiz-adv-x="508" 
  />
-    <glyph glyph-name="space" unicode=" " horiz-adv-x="508" 
+    <glyph glyph-name="space" unicode="" horiz-adv-x="508" 
  />
     <glyph glyph-name="space" unicode="&#xa0;" horiz-adv-x="508" 
  />

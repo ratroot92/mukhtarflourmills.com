@@ -1,12 +1,12 @@
 (function() {
     var options = {
-        whatsapp: "00923335453780", // WhatsApp number
-        call_to_action: "Message us", // Call to action
-        position: "right", // Position may be 'right' or 'left'
+        whatsapp:"00923335453780", // WhatsApp number
+        call_to_action:"Message us", // Call to action
+        position:"right", // Position may be 'right' or 'left'
     };
     var proto = document.location.protocol,
-        host = "getbutton.io",
-        url = proto + "//static." + host;
+        host ="getbutton.io",
+        url = proto +"//static." + host;
     var s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;

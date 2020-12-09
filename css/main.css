@@ -585,7 +585,7 @@ td {
 
 .clearfix:after {
     clear: both;
-    content: ".";
+    content:".";
     display: block;
     height: 0;
     visibility: hidden;
@@ -1368,7 +1368,7 @@ button:focus {
 
 .clearfix:after {
     clear: both;
-    content: ".";
+    content:".";
     display: block;
     height: 0;
     visibility: hidden;
@@ -2225,7 +2225,7 @@ h1 span {
 }
 
 #header .main-menu ul li:after {
-    content: "\2022";
+    content:"\2022";
     font-size: 22px;
     color: #f84e57;
     position: absolute;
@@ -6563,7 +6563,7 @@ h1 span {
 }
 
 #footer ul.footer-menu li:after {
-    content: "|";
+    content:"|";
     font-size: 14px;
     color: #fff;
     position: absolute;
@@ -6887,7 +6887,7 @@ h1 span {
 
 .slick-track:before,
 .slick-track:after {
-    content: "";
+    content:"";
     display: table;
 }
 
@@ -7093,7 +7093,7 @@ h1 span {
 
 .slick-prev:before,
 .slick-next:before {
-    font-family: "slick";
+    font-family:"slick";
     font-size: 20px;
     line-height: 1;
     color: white;
@@ -7131,7 +7131,7 @@ h1 span {
 }
 
 .slick-prev:before {
-    content: "\2190";
+    content:"\2190";
 }
 
 
@@ -7163,7 +7163,7 @@ h1 span {
 }
 
 .slick-next:before {
-    content: "\2192";
+    content:"\2192";
 }
 
 
@@ -7323,7 +7323,7 @@ h1 span {
 }
 
 [dir="rtl"] .slick-next:before {
-    content: "\2190";
+    content:"\2190";
 }
 
 
@@ -7356,7 +7356,7 @@ h1 span {
 }
 
 [dir="rtl"] .slick-prev:before {
-    content: "\2192";
+    content:"\2192";
 }
 
 

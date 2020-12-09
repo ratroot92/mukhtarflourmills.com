@@ -13,9 +13,9 @@ $(function(){
 
     /*$('#switcher_qlogin a').click(function(){
         $("#switcher_qlogin").attr('class',"active");
-        $("#switcher_alogin").attr('class'," ");
+        $("#switcher_alogin").attr('class',"");
         $("#account_login").attr('class',"hide");
-        $("#qr_id_login").attr('class'," ");
+        $("#qr_id_login").attr('class',"");
         $("#switch_bottom").animate({width:$("#switcher_qlogin").outerWidth()+"px",marginLeft:($("#switcher_qlogin").offset().left-$("#switcher_qlogin").parent().offset().left)+"px"});
     } );
     $('#switcher_alogin a').click(function(){
@@ -94,7 +94,7 @@ function verifyMess(){
                 //window.location.href=authurl;
                 //alert(mi_service)
                 if(flag4Service){
-                    $.post(authurlPost, { _eventId: "submit", execution: flowExecutionKey,username:data.data,password:qrTicket,rememberMe:"on",option:option,qr_login:"on"} )
+                    $.post(authurlPost, { _eventId:"submit", execution: flowExecutionKey,username:data.data,password:qrTicket,rememberMe:"on",option:option,qr_login:"on"} )
                     /* $("#img_span_info").css("display","inline-block");
  */
                     setTimeout(function(){
@@ -266,7 +266,7 @@ function getCookieValue(name){
 
     if(isNaN(value)){
         if(value=="NaN"){
-            return "";
+            return"";
         }
         return value;
     }else{
@@ -290,7 +290,7 @@ function settime(obj) {
     } else {
         //obj.attr("disabled", true);
         obj.html('');
-        obj.html( countdown + "s");
+        obj.html( countdown +"s");
         countdown--;
         editCookie("secondsremained",countdown,countdown+1);
     }
@@ -305,7 +305,7 @@ function settime(obj) {
 
 function settimeOTP(obj) {
     countdown=getCookieValue("secondsremained1");
-    if(typeof(countdown)== "undefined"||countdown == 0) {
+    if(typeof(countdown)=="undefined"||countdown == 0) {
         obj.text('');
         obj.css('color','#FF6633');
         //obj.removeAttr("disabled");

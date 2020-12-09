@@ -26,7 +26,7 @@ window.onload = function() {
     })
     $(document.body).on('click', '.list_fn', function() {
         window._LarkPassportJsBridge.invoke('biz.account.switch_idp', {
-            "idp_type": $(this)[0].title
+           "idp_type": $(this)[0].title
         }, {
             onSuccess: () => { 
                 $("div.model_box").remove()
